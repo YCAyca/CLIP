@@ -1,0 +1,4 @@
+animal
+fruit
+person
+vehicle
