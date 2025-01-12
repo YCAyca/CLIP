@@ -35,7 +35,7 @@ python scripts/classification.py --input_dir dataset/classification --classnames
 
 The above command runs CLIP for zero-shot classification over the input images with the classnames given in classnames.txt and save the input image with its predicted class and prediction score as a plot in the given output directory.  
 
-<img src="outputs/classification/plot_3.jpg" width=50% height=50% style="display: block; margin: 0 auto;">
+<img src="outputs/classification/plot_3.jpg" width=30% height=30% style="display: block; margin: 0 auto;">
 
 ## Image Retrival
 
