@@ -20,6 +20,7 @@ pip install git+https://github.com/openai/CLIP.git
 ```
 docker build . -t clip:1.0
 bash run_docker.sh
+cd CLIP
 ```
 
 * Modify the CLIP folder path according to your path in run_docker.sh
@@ -32,8 +33,15 @@ bash run_docker.sh
 python scripts/classification.py --input_dir dataset/classification --classnames_file dataset/classnames.txt --outDir outputs/classification
 ```
 
+<img src="outputs/classification/plot_3.jpg" width=50% height=50% style="display: block; margin: 0 auto;">
+
 ## Image Retrival
 
 ```
 python scripts/image_retrieval.py --gallery-path dataset/gallery --query-path dataset/query --outDir outputs/retrieval
 ```
+<img src="outputs/retrieval/plot_0.jpg" width=50% height=50% style="display: block; margin: 0 auto;">
+
+<img src="outputs/retrieval/plot_1.jpg" width=50% height=50% style="display: block; margin: 0 auto;">
+
+<img src="outputs/retrieval/plot_2.jpg" width=50% height=50% style="display: block; margin: 0 auto;">
